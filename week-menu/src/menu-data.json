@@ -1,6 +1,7 @@
 {
     "menus": [
         {
+            "id": 1,
             "name": "Ramen au poulet",
             "ingredients": [
                 { "item": "Poulet", "quantity": 300, "unit": "g" },
@@ -9,6 +10,7 @@
             ]
         },
         {
+            "id": 2,
             "name": "Ebly sauce crémeuse tomate et poulet grillé",
             "ingredients": [
                 { "item": "Ebly", "quantity": 250, "unit": "g" },
