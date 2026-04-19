@@ -2,6 +2,7 @@
 
 import { onMounted, ref, watch } from 'vue'
 import menuData from '../menu-data.json'
+import MenuCell from './MenuCell.vue'
 
 const selectedMeals = ref([])
 
@@ -19,29 +20,16 @@ watch(selectedMeals, (newSelectedMeals) => {
     window.history.pushState({}, '', '?meals=' + newSelectedMeals.join(','));
 }, { deep: true })
 
-const getMealUsingId = (d6, d20) => {
-    const targetId = ((d6 - 1) * 20) + d20;
-    return menuData.menus.find(menu => menu.id === targetId);
-}
-
-const handleCellClick = (d6, d20) => {
-    const meal = getMealUsingId(d6, d20);
-    if (meal) {
-        selectedMeals.value.push(meal.id);
+const handleCellClick = (mealId) => {
+    if (selectedMeals.value.includes(mealId)) {
+        selectedMeals.value = selectedMeals.value.filter(id => id !== mealId);
+    } else {
+        selectedMeals.value.push(mealId);
     }
 }
 </script>
 
 <template>
-    <div v-for="menu in menuData.menus" :key="menu.name">
-        <h2>{{ menu.name }}</h2>
-        <ul>
-            <li v-for="ingredient in menu.ingredients" :key="ingredient.item">
-                {{ ingredient.item }} - {{ ingredient.quantity }} {{ ingredient.unit }}
-            </li>
-        </ul>
-    </div>
-
     <table border="1" cellpadding="5">
     <thead>
       <tr>
@@ -61,13 +49,24 @@ const handleCellClick = (d6, d20) => {
         <th>{{ d20 }}</th>
         
         <!-- We loop 6 times across for the columns -->
-        <td v-for="d6 in 6" :key="'cell-'+d6" @click="handleCellClick(d6, d20)">
-           
-           <!-- We pass d6 and d20 to your formula exactly like before! -->
-           {{ getMealUsingId(d6, d20)?.name || '' }}
-           
-        </td>
+        <MenuCell 
+            v-for="d6 in 6" :key="'cell-'+d6"
+            :d6="d6" 
+            :d20="d20" 
+            :selectedMeals="selectedMeals"
+            @cell-clicked="handleCellClick"
+        />
       </tr>
     </tbody>
   </table>
+
+  <h2>Ingredient list</h2>
+  <div v-for="menu in menuData.menus" :key="menu.name">
+        <h2>{{ menu.name }}</h2>
+        <ul>
+            <li v-for="ingredient in menu.ingredients" :key="ingredient.item">
+                {{ ingredient.item }} - {{ ingredient.quantity }} {{ ingredient.unit }}
+            </li>
+        </ul>
+    </div>
 </template>
