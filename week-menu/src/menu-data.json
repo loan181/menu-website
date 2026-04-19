@@ -1,0 +1,20 @@
+{
+    "menus": [
+        {
+            "name": "Ramen au poulet",
+            "ingredients": [
+                { "item": "Poulet", "quantity": 300, "unit": "g" },
+                { "item": "Nouilles", "quantity": 1, "unit": "paquet" },
+                { "item": "Légumes", "quantity": 1, "unit": "sachet" }
+            ]
+        },
+        {
+            "name": "Ebly sauce crémeuse tomate et poulet grillé",
+            "ingredients": [
+                { "item": "Ebly", "quantity": 250, "unit": "g" },
+                { "item": "Sauce crémeuse tomate", "quantity": 1, "unit": "pot" },
+                { "item": "Poulet", "quantity": 200, "unit": "g" }
+            ]
+        }
+    ]
+}
