@@ -3,6 +3,7 @@
 import { computed, onMounted, ref, watch } from 'vue'
 import menuData from '../menu-data.json'
 import MenuCell from './MenuCell.vue'
+import IngredientRow from './IngredientRow.vue'
 
 const selectedMeals = ref([])
 const expandedIngredients = ref([]);
@@ -29,10 +30,6 @@ const handleCellClick = (mealId) => {
     } else {
         selectedMeals.value.push(mealId);
     }
-}
-
-const getIngredientUnit = (itemName) => {
-    return menuData.ingredient_details[itemName]?.unit || '';
 }
 
 const selectedMenusData = computed(() => {
@@ -121,67 +118,45 @@ const toggleIngredient = (itemName) => {
   </table>
 
   <div class="container">
-  <h2>Aggregated Ingredient List</h2>
-  
-  <!-- OUTER LOOP: Loop through each Category -->
-  <div v-for="category in groupedIngredientsByCategory" :key="category.name">
+    <h2>Aggregated Ingredient List</h2>
     
-    <!-- The little headline for the category -->
-    <h3 class="category-header">{{ category.name }}</h3>
-    
-    <div class="ingredient-card">
-      <ul class="ingredient-list">
-        
-        <!-- INNER LOOP: Loop through ingredients in this category -->
-        <li v-for="ingredient in category.ingredients" :key="ingredient.item" class="ingredient-item">
-          
-          <div class="ingredient-row">
-            <input type="checkbox" class="checkbox" :value="ingredient.item" v-model="checkedIngredients">
-            
-            <div @click="toggleIngredient(ingredient.item)" 
-                 class="ingredient-text"
-                 :class="{ 'checked': checkedIngredients.includes(ingredient.item) }">
-                <span>{{ expandedIngredients.includes(ingredient.item) ? '🔽' : '▶️' }}</span>
-                {{ ingredient.totalQuantity }} {{ ingredient.unit }} {{ ingredient.item }}
-            </div>
-          </div>
-          
-          <!-- Breakdown -->
-          <ul v-if="expandedIngredients.includes(ingredient.item)" class="breakdown-list">
-              <li v-for="source in ingredient.sources" :key="source.menuName">
-                  {{ source.menuName }}: {{ source.quantity }} {{ ingredient.unit }}
-              </li>
-          </ul>
-          
-        </li>
-      </ul>
+    <div v-for="category in groupedIngredientsByCategory" :key="category.name">
+      <h3 class="category-header">{{ category.name }}</h3>
+      <div class="ingredient-card">
+        <ul class="ingredient-list">
+          <IngredientRow 
+            v-for="ingredient in category.ingredients" 
+            :key="ingredient.item"
+            :ingredient="ingredient"
+            :is-expandable="true"
+            :show-checkbox="true"
+            v-model:checkedItems="checkedIngredients"
+            v-model:expandedItems="expandedIngredients"
+          />
+        </ul>
+      </div>
     </div>
   </div>
-</div>
 
 
 
 
   <div class="container">
-  <h2>Selected ingredient list</h2>
-  
-  <div v-for="menu in selectedMenusData" :key="menu.name" style="margin-bottom: 2rem;">
-        <h3 class="menu-title">{{ menu.name }}</h3>
-        <div class="ingredient-card">
-            <ul class="ingredient-list">
-                <li v-for="ingredient in menu.ingredients" 
-                    :key="ingredient.item"
-                    class="ingredient-item"
-                    :class="{ 'checked': checkedIngredients.includes(ingredient.item) }">
-                    
-                    {{ ingredient.item }} - {{ ingredient.quantity }} {{ getIngredientUnit(ingredient.item) }}
-                    
-                </li>
-
-            </ul>
-        </div>
+    <h2>Selected ingredient list</h2>
+    <div v-for="menu in selectedMenusData" :key="menu.name" style="margin-bottom: 2rem;">
+      <h3 class="menu-title">{{ menu.name }}</h3>
+      <div class="ingredient-card">
+        <ul class="ingredient-list">
+          <IngredientRow 
+            v-for="ingredient in menu.ingredients" 
+            :key="ingredient.item"
+            :ingredient="ingredient"
+            v-model:checkedItems="checkedIngredients"
+          />
+        </ul>
+      </div>
     </div>
-</div>
+  </div>
 
 </template>
 
@@ -213,57 +188,6 @@ h2 {
   margin: 0;
 }
 
-.ingredient-item {
-  border-bottom: 1px solid #333;
-  padding: 0.75rem 0.5rem;
-}
-
-.ingredient-item:last-child {
-  border-bottom: none;
-}
-
-.ingredient-row {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  min-height: 44px; /* Minimum height for mobile touch targets! */
-}
-
-.checkbox {
-  transform: scale(2.5); 
-}
-
-.ingredient-text {
-  flex-grow: 1;
-  font-size: 1.1rem;
-  cursor: pointer;
-  user-select: none;
-}
-
-.checked {
-  text-decoration: line-through;
-  color: #666 !important;
-}
-
-.breakdown-list {
-  list-style: none;
-  padding-left: 2rem;
-  margin-top: 0.5rem;
-  color: #aaa;
-  font-size: 0.9rem;
-}
-
-.menu-title {
-  color: #a6adc8;
-  font-size: 1.1rem;
-  margin-bottom: 0.5rem;
-  padding-left: 0.5rem;
-}
-.checked {
-  text-decoration: line-through;
-  color: #555 !important;
-}
-
 .category-header {
   color: #ff9f43;
   font-size: 0.85rem;
@@ -272,6 +196,13 @@ h2 {
   margin-top: 1.5rem;
   margin-bottom: 0.5rem;
   opacity: 0.7;
+  padding-left: 0.5rem;
+}
+
+.menu-title {
+  color: #a6adc8;
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
   padding-left: 0.5rem;
 }
 
