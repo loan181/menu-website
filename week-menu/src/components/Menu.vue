@@ -31,38 +31,54 @@ const handleCellClick = (mealId) => {
     }
 }
 
+const getIngredientUnit = (itemName) => {
+    return menuData.ingredient_details[itemName]?.unit || '';
+}
+
 const selectedMenusData = computed(() => {
     return menuData.menus.filter(menu => selectedMeals.value.includes(menu.id))
 })
 
-const groupedIngredients = computed(() => {
-    const ingredientMap = new Map();
+const groupedIngredientsByCategory = computed(() => {
+    const categoryMap = new Map();
 
     selectedMenusData.value.forEach(menu => {
         menu.ingredients.forEach(ingredient => {
             const itemName = ingredient.item;
             
-            if (!ingredientMap.has(itemName)) {
-                ingredientMap.set(itemName, {
+            const details = menuData.ingredient_details[itemName] || { category: 'Autres', unit: '?' };
+            const catName = details.category;
+
+            if (!categoryMap.has(catName)) {
+                categoryMap.set(catName, new Map());
+            }
+            
+            const itemMap = categoryMap.get(catName);
+            
+            if (!itemMap.has(itemName)) {
+                itemMap.set(itemName, {
                     item: itemName,
                     totalQuantity: 0,
-                    unit: ingredient.unit,
-                    sources: [] 
+                    unit: details.unit,
+                    sources: []
                 });
             }
             
-            const currentIngredient = ingredientMap.get(itemName);
-            
-            currentIngredient.totalQuantity += ingredient.quantity;
-            currentIngredient.sources.push({
+            const currentItem = itemMap.get(itemName);
+            currentItem.totalQuantity += ingredient.quantity;
+            currentItem.sources.push({
                 menuName: menu.name,
                 quantity: ingredient.quantity
             });
         });
     });
 
-    return Array.from(ingredientMap.values());
+    return Array.from(categoryMap.entries()).map(([name, itemMap]) => ({
+        name,
+        ingredients: Array.from(itemMap.values())
+    }));
 });
+
 
 const toggleIngredient = (itemName) => {
     if (expandedIngredients.value.includes(itemName)) {
@@ -105,26 +121,32 @@ const toggleIngredient = (itemName) => {
   </table>
 
   <div class="container">
-    <h2>Aggregated Ingredient List</h2>
+  <h2>Aggregated Ingredient List</h2>
+  
+  <!-- OUTER LOOP: Loop through each Category -->
+  <div v-for="category in groupedIngredientsByCategory" :key="category.name">
+    
+    <!-- The little headline for the category -->
+    <h3 class="category-header">{{ category.name }}</h3>
     
     <div class="ingredient-card">
       <ul class="ingredient-list">
-        <li v-for="ingredient in groupedIngredients" :key="ingredient.item" class="ingredient-item">
+        
+        <!-- INNER LOOP: Loop through ingredients in this category -->
+        <li v-for="ingredient in category.ingredients" :key="ingredient.item" class="ingredient-item">
           
           <div class="ingredient-row">
-            <input type="checkbox" 
-                  class="checkbox"
-                  :value="ingredient.item" 
-                  v-model="checkedIngredients">
+            <input type="checkbox" class="checkbox" :value="ingredient.item" v-model="checkedIngredients">
             
             <div @click="toggleIngredient(ingredient.item)" 
-                class="ingredient-text"
-                :class="{ 'checked': checkedIngredients.includes(ingredient.item) }">
+                 class="ingredient-text"
+                 :class="{ 'checked': checkedIngredients.includes(ingredient.item) }">
                 <span>{{ expandedIngredients.includes(ingredient.item) ? '🔽' : '▶️' }}</span>
                 {{ ingredient.totalQuantity }} {{ ingredient.unit }} {{ ingredient.item }}
             </div>
           </div>
           
+          <!-- Breakdown -->
           <ul v-if="expandedIngredients.includes(ingredient.item)" class="breakdown-list">
               <li v-for="source in ingredient.sources" :key="source.menuName">
                   {{ source.menuName }}: {{ source.quantity }} {{ ingredient.unit }}
@@ -135,6 +157,8 @@ const toggleIngredient = (itemName) => {
       </ul>
     </div>
   </div>
+</div>
+
 
 
 
@@ -150,9 +174,10 @@ const toggleIngredient = (itemName) => {
                     class="ingredient-item"
                     :class="{ 'checked': checkedIngredients.includes(ingredient.item) }">
                     
-                    {{ ingredient.item }} - {{ ingredient.quantity }} {{ ingredient.unit }}
+                    {{ ingredient.item }} - {{ ingredient.quantity }} {{ getIngredientUnit(ingredient.item) }}
                     
                 </li>
+
             </ul>
         </div>
     </div>
@@ -238,6 +263,18 @@ h2 {
   text-decoration: line-through;
   color: #555 !important;
 }
+
+.category-header {
+  color: #ff9f43;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+  opacity: 0.7;
+  padding-left: 0.5rem;
+}
+
 :global(body) {
   background-color: #121212;
   margin: 0;
