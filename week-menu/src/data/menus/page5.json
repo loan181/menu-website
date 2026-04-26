@@ -1,0 +1,270 @@
+[
+  {
+    "id": 81,
+    "name": "Salade haricots verts, tomates et oeufs",
+    "ingredients": [
+      {
+        "item": "Légumes",
+        "quantity": 1
+      },
+      {
+        "item": "Tomates",
+        "quantity": 3
+      },
+      {
+        "item": "Oeufs",
+        "quantity": 4
+      }
+    ]
+  },
+  {
+    "id": 82,
+    "name": "Chili sin carne",
+    "ingredients": [
+      {
+        "item": "Ingrédient mystère",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": 83,
+    "name": "Oeufs cocottes, épinards et crème",
+    "ingredients": [
+      {
+        "item": "Crème",
+        "quantity": 200
+      },
+      {
+        "item": "Légumes",
+        "quantity": 1
+      },
+      {
+        "item": "Oeufs",
+        "quantity": 4
+      }
+    ]
+  },
+  {
+    "id": 84,
+    "name": "Spaghettis bolo",
+    "ingredients": [
+      {
+        "item": "Tomates",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "id": 85,
+    "name": "Filet américain, frites, salade",
+    "ingredients": [
+      {
+        "item": "Ingrédient mystère",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": 86,
+    "name": "Salade grecque poulet, concombre, salade, tomate, tzatziki",
+    "ingredients": [
+      {
+        "item": "Poulet",
+        "quantity": 300
+      },
+      {
+        "item": "Tomates",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "id": 87,
+    "name": "Poulet sauce tomate mascarpone pâtes grecques",
+    "ingredients": [
+      {
+        "item": "Poulet",
+        "quantity": 300
+      },
+      {
+        "item": "Pâtes",
+        "quantity": 400
+      },
+      {
+        "item": "Tomates",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "id": 88,
+    "name": "Soupe à l'oignon et pain",
+    "ingredients": [
+      {
+        "item": "Pain",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": 89,
+    "name": "Lasagne",
+    "ingredients": [
+      {
+        "item": "Ingrédient mystère",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": 90,
+    "name": "Salade de pommes de terre niçoise (haricots, oeufs, mayo)",
+    "ingredients": [
+      {
+        "item": "Pommes de terre",
+        "quantity": 600
+      },
+      {
+        "item": "Légumes",
+        "quantity": 1
+      },
+      {
+        "item": "Oeufs",
+        "quantity": 4
+      }
+    ]
+  },
+  {
+    "id": 91,
+    "name": "Poulet sauce forestière à la moutarde, rondelles de pdt,brocolis champignons",
+    "ingredients": [
+      {
+        "item": "Poulet",
+        "quantity": 300
+      },
+      {
+        "item": "Pommes de terre",
+        "quantity": 600
+      },
+      {
+        "item": "Légumes",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": 92,
+    "name": "Japchae au boeuf et légumes",
+    "ingredients": [
+      {
+        "item": "Boeuf",
+        "quantity": 2
+      },
+      {
+        "item": "Légumes",
+        "quantity": 1
+      },
+      {
+        "item": "Oeufs",
+        "quantity": 4
+      }
+    ]
+  },
+  {
+    "id": 93,
+    "name": "Filet de porc au romarin, petits pois et frites",
+    "ingredients": [
+      {
+        "item": "Ingrédient mystère",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": 94,
+    "name": "Boulettes suédoises façon Ikéa et sauce aux airelles",
+    "ingredients": [
+      {
+        "item": "Ingrédient mystère",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": 95,
+    "name": "Shakshuka",
+    "ingredients": [
+      {
+        "item": "Ingrédient mystère",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": 96,
+    "name": "Raviolis aux champignons béchamel",
+    "ingredients": [
+      {
+        "item": "Ingrédient mystère",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": 97,
+    "name": "Poulet grillé, citron, riz et brocoli",
+    "ingredients": [
+      {
+        "item": "Poulet",
+        "quantity": 300
+      },
+      {
+        "item": "Riz",
+        "quantity": 200
+      },
+      {
+        "item": "Légumes",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": 98,
+    "name": "Bol coréen riz, boeuf haché, oeuf",
+    "ingredients": [
+      {
+        "item": "Riz",
+        "quantity": 200
+      },
+      {
+        "item": "Boeuf",
+        "quantity": 2
+      },
+      {
+        "item": "Oeufs",
+        "quantity": 4
+      }
+    ]
+  },
+  {
+    "id": 99,
+    "name": "Salade tofu, haloumi, houmous, concombre, tomate",
+    "ingredients": [
+      {
+        "item": "Tomates",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "id": 100,
+    "name": "Pâtes au pesto",
+    "ingredients": [
+      {
+        "item": "Pâtes",
+        "quantity": 400
+      }
+    ]
+  }
+]

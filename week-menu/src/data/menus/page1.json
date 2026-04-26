@@ -1,0 +1,270 @@
+[
+  {
+    "id": 1,
+    "name": "Ramen au poulet",
+    "ingredients": [
+      {
+        "item": "Poulet",
+        "quantity": 300
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Ebly, sauce crémeuse tomate et poulet grillé",
+    "ingredients": [
+      {
+        "item": "Poulet",
+        "quantity": 300
+      },
+      {
+        "item": "Crème",
+        "quantity": 200
+      },
+      {
+        "item": "Tomates",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Poisson, crème et riz",
+    "ingredients": [
+      {
+        "item": "Riz",
+        "quantity": 200
+      },
+      {
+        "item": "Poisson",
+        "quantity": 2
+      },
+      {
+        "item": "Crème",
+        "quantity": 200
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Tartiflette maison",
+    "ingredients": [
+      {
+        "item": "Ingrédient mystère",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Pâtes au poulet crème, cube de bouillon et citron origan",
+    "ingredients": [
+      {
+        "item": "Poulet",
+        "quantity": 300
+      },
+      {
+        "item": "Pâtes",
+        "quantity": 400
+      },
+      {
+        "item": "Crème",
+        "quantity": 200
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Escalope de dinde, brocoli sauce, crème citronée",
+    "ingredients": [
+      {
+        "item": "Dinde",
+        "quantity": 2
+      },
+      {
+        "item": "Crème",
+        "quantity": 200
+      },
+      {
+        "item": "Légumes",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Salade de lentilles, carottes et houmous",
+    "ingredients": [
+      {
+        "item": "Légumes",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Poké bowl maison",
+    "ingredients": [
+      {
+        "item": "Ingrédient mystère",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Soupe et morceau de pain",
+    "ingredients": [
+      {
+        "item": "Pain",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Poulet Cajun et riz (tomates séchées, crème, paprika, ail, origan, thym, poivre et sel)",
+    "ingredients": [
+      {
+        "item": "Poulet",
+        "quantity": 300
+      },
+      {
+        "item": "Riz",
+        "quantity": 200
+      },
+      {
+        "item": "Crème",
+        "quantity": 200
+      },
+      {
+        "item": "Tomates",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Gnocchis, épinards et parmesan/fromage",
+    "ingredients": [
+      {
+        "item": "Pommes de terre",
+        "quantity": 600
+      },
+      {
+        "item": "Fromage",
+        "quantity": 100
+      },
+      {
+        "item": "Légumes",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Wraps burrito",
+    "ingredients": [
+      {
+        "item": "Wraps",
+        "quantity": 4
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Macaronis au fromage",
+    "ingredients": [
+      {
+        "item": "Pâtes",
+        "quantity": 400
+      },
+      {
+        "item": "Fromage",
+        "quantity": 100
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Pommes de terre, haricots et poulet grillé",
+    "ingredients": [
+      {
+        "item": "Poulet",
+        "quantity": 300
+      },
+      {
+        "item": "Pommes de terre",
+        "quantity": 600
+      },
+      {
+        "item": "Légumes",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Poulet à l’amazonienne au poivron et paprika fumé, pâtes",
+    "ingredients": [
+      {
+        "item": "Poulet",
+        "quantity": 300
+      },
+      {
+        "item": "Pâtes",
+        "quantity": 400
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Risotto au champignons",
+    "ingredients": [
+      {
+        "item": "Ingrédient mystère",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "name": "Poulet pané, petits pois et rosti",
+    "ingredients": [
+      {
+        "item": "Poulet",
+        "quantity": 300
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "name": "Butter chicken",
+    "ingredients": [
+      {
+        "item": "Ingrédient mystère",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "name": "Poivrons farcis",
+    "ingredients": [
+      {
+        "item": "Ingrédient mystère",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "name": "Hot dog maison",
+    "ingredients": [
+      {
+        "item": "Ingrédient mystère",
+        "quantity": 1
+      }
+    ]
+  }
+]

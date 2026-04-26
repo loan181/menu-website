@@ -1,6 +1,6 @@
 <script setup>
 import { computed } from 'vue'
-import menuData from '../menu-data.json'
+import { menuData } from '../data'
 
 // 1. Define what data this cell receives from the parent Loop!
 const props = defineProps(['d6', 'd20', 'selectedMeals'])

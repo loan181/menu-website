@@ -1,0 +1,242 @@
+[
+  {
+    "id": 61,
+    "name": "Poulet crème et champignons",
+    "ingredients": [
+      {
+        "item": "Poulet",
+        "quantity": 300
+      },
+      {
+        "item": "Crème",
+        "quantity": 200
+      }
+    ]
+  },
+  {
+    "id": 62,
+    "name": "Dinde soja miel, salade de chou",
+    "ingredients": [
+      {
+        "item": "Dinde",
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "id": 63,
+    "name": "Quiche aux poireaux lardons",
+    "ingredients": [
+      {
+        "item": "Légumes",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": 64,
+    "name": "Libanais à commander",
+    "ingredients": [
+      {
+        "item": "Ingrédient mystère",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": 65,
+    "name": "Tacos de poulet au four",
+    "ingredients": [
+      {
+        "item": "Poulet",
+        "quantity": 300
+      },
+      {
+        "item": "Wraps",
+        "quantity": 4
+      }
+    ]
+  },
+  {
+    "id": 66,
+    "name": "Tteokboki et légumes",
+    "ingredients": [
+      {
+        "item": "Légumes",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": 67,
+    "name": "Galettes de pommes de terre + courgette, filet pur de porc",
+    "ingredients": [
+      {
+        "item": "Pommes de terre",
+        "quantity": 600
+      },
+      {
+        "item": "Boeuf",
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "id": 68,
+    "name": "Soupe scandinave",
+    "ingredients": [
+      {
+        "item": "Ingrédient mystère",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": 69,
+    "name": "Penne à la crème d’aubergine et ail",
+    "ingredients": [
+      {
+        "item": "Pâtes",
+        "quantity": 400
+      },
+      {
+        "item": "Crème",
+        "quantity": 200
+      }
+    ]
+  },
+  {
+    "id": 70,
+    "name": "Orzo poulet, crème, brocolis",
+    "ingredients": [
+      {
+        "item": "Poulet",
+        "quantity": 300
+      },
+      {
+        "item": "Crème",
+        "quantity": 200
+      },
+      {
+        "item": "Légumes",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": 71,
+    "name": "Salade de nouilles type banh mi",
+    "ingredients": [
+      {
+        "item": "Nouilles",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": 72,
+    "name": "Burgers maison, coleslaw, frites",
+    "ingredients": [
+      {
+        "item": "Ingrédient mystère",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": 73,
+    "name": "Dinde, purée de lentilles, poireaux et sauce yaourt",
+    "ingredients": [
+      {
+        "item": "Pommes de terre",
+        "quantity": 600
+      },
+      {
+        "item": "Dinde",
+        "quantity": 2
+      },
+      {
+        "item": "Légumes",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": 74,
+    "name": "Pâtes carbonara",
+    "ingredients": [
+      {
+        "item": "Pâtes",
+        "quantity": 400
+      }
+    ]
+  },
+  {
+    "id": 75,
+    "name": "Pizza maison",
+    "ingredients": [
+      {
+        "item": "Ingrédient mystère",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": 76,
+    "name": "Poulet sauce estragon et riz complet",
+    "ingredients": [
+      {
+        "item": "Poulet",
+        "quantity": 300
+      },
+      {
+        "item": "Riz",
+        "quantity": 200
+      }
+    ]
+  },
+  {
+    "id": 77,
+    "name": "Soupe pois cassé et bacon de dinde",
+    "ingredients": [
+      {
+        "item": "Dinde",
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "id": 78,
+    "name": "Salade quinoa, concombre, avocat, tomates",
+    "ingredients": [
+      {
+        "item": "Tomates",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "id": 79,
+    "name": "Cordon bleu, pdt et petits pois",
+    "ingredients": [
+      {
+        "item": "Pommes de terre",
+        "quantity": 600
+      }
+    ]
+  },
+  {
+    "id": 80,
+    "name": "Salade cheeseburger (haché, salade, oignons, tomates, fromage, ketchup mayo)",
+    "ingredients": [
+      {
+        "item": "Fromage",
+        "quantity": 100
+      },
+      {
+        "item": "Tomates",
+        "quantity": 3
+      }
+    ]
+  }
+]

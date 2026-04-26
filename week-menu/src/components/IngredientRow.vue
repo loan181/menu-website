@@ -1,7 +1,7 @@
 <script setup>
 import { computed } from 'vue'
 
-import menuData from '../menu-data.json'
+import { menuData } from '../data'
 
 const props = defineProps({
   ingredient: {

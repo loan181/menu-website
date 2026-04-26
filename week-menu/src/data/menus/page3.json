@@ -1,0 +1,266 @@
+[
+  {
+    "id": 41,
+    "name": "Bowl quinoa, avocat, oeuf et radis",
+    "ingredients": [
+      {
+        "item": "Oeufs",
+        "quantity": 4
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "name": "Poulet ail et miel, riz",
+    "ingredients": [
+      {
+        "item": "Poulet",
+        "quantity": 300
+      },
+      {
+        "item": "Riz",
+        "quantity": 200
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "name": "Curry au poulet et légumes",
+    "ingredients": [
+      {
+        "item": "Poulet",
+        "quantity": 300
+      },
+      {
+        "item": "Légumes",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "name": "Escalope sauce forestière, croquettes, champignons",
+    "ingredients": [
+      {
+        "item": "Ingrédient mystère",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "name": "Cake salé lardons raclette en mode apéritif dînatoire",
+    "ingredients": [
+      {
+        "item": "Ingrédient mystère",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "name": "Boulettes poulet, sauce tomate, basilic, courgettes",
+    "ingredients": [
+      {
+        "item": "Poulet",
+        "quantity": 300
+      },
+      {
+        "item": "Tomates",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "name": "Soupe de nouilles, poulet et lait de coco",
+    "ingredients": [
+      {
+        "item": "Poulet",
+        "quantity": 300
+      },
+      {
+        "item": "Nouilles",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "name": "Courgette farcie",
+    "ingredients": [
+      {
+        "item": "Ingrédient mystère",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "name": "Gratin dauphinois, salade, poulet",
+    "ingredients": [
+      {
+        "item": "Poulet",
+        "quantity": 300
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "name": "Hachi scarole et haché",
+    "ingredients": [
+      {
+        "item": "Ingrédient mystère",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "name": "Riz, crème et fish-stick",
+    "ingredients": [
+      {
+        "item": "Riz",
+        "quantity": 200
+      },
+      {
+        "item": "Crème",
+        "quantity": 200
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "name": "Baguette à l’ail, tomates et mozzarella, oeufs mimosa",
+    "ingredients": [
+      {
+        "item": "Fromage",
+        "quantity": 100
+      },
+      {
+        "item": "Tomates",
+        "quantity": 3
+      },
+      {
+        "item": "Oeufs",
+        "quantity": 4
+      },
+      {
+        "item": "Pain",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "name": "Poulet façon yakitori et coleslaw",
+    "ingredients": [
+      {
+        "item": "Poulet",
+        "quantity": 300
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "name": "Steak boeuf, salade de pdt et pistou de persil",
+    "ingredients": [
+      {
+        "item": "Pommes de terre",
+        "quantity": 600
+      },
+      {
+        "item": "Boeuf",
+        "quantity": 2
+      },
+      {
+        "item": "Oeufs",
+        "quantity": 4
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "name": "Oyakodon",
+    "ingredients": [
+      {
+        "item": "Ingrédient mystère",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "name": "Steak de boeuf, purée et salade",
+    "ingredients": [
+      {
+        "item": "Pommes de terre",
+        "quantity": 600
+      },
+      {
+        "item": "Boeuf",
+        "quantity": 2
+      },
+      {
+        "item": "Oeufs",
+        "quantity": 4
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "name": "Salade de pois chiches libanaise",
+    "ingredients": [
+      {
+        "item": "Ingrédient mystère",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "name": "Tagliatelles poireaux, lardons et crème fraiche",
+    "ingredients": [
+      {
+        "item": "Pâtes",
+        "quantity": 400
+      },
+      {
+        "item": "Crème",
+        "quantity": 200
+      },
+      {
+        "item": "Légumes",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "name": "Bowl tofu, riz complet, légumes au choix",
+    "ingredients": [
+      {
+        "item": "Riz",
+        "quantity": 200
+      },
+      {
+        "item": "Légumes",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "name": "Dinde au paprika doux, crème et boulgour",
+    "ingredients": [
+      {
+        "item": "Dinde",
+        "quantity": 2
+      },
+      {
+        "item": "Crème",
+        "quantity": 200
+      }
+    ]
+  }
+]

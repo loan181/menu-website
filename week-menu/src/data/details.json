@@ -1,0 +1,146 @@
+{
+  "Poulet": {
+    "unit": "g",
+    "category": "Viande"
+  },
+  "Boeuf": {
+    "unit": "pièce",
+    "category": "Viande"
+  },
+  "Dinde": {
+    "unit": "pièce",
+    "category": "Viande"
+  },
+  "Saucisse": {
+    "unit": "pièce",
+    "category": "Viande"
+  },
+  "Haché": {
+    "unit": "g",
+    "category": "Viande"
+  },
+  "Lardons": {
+    "unit": "g",
+    "category": "Viande"
+  },
+  "Poisson": {
+    "unit": "pièce",
+    "category": "Poisson"
+  },
+  "Pâtes": {
+    "unit": "g",
+    "category": "Epicerie"
+  },
+  "Riz": {
+    "unit": "g",
+    "category": "Epicerie"
+  },
+  "Nouilles": {
+    "unit": "paquet",
+    "category": "Epicerie"
+  },
+  "Ebly": {
+    "unit": "g",
+    "category": "Epicerie"
+  },
+  "Couscous": {
+    "unit": "g",
+    "category": "Epicerie"
+  },
+  "Sauce tomate": {
+    "unit": "bocal",
+    "category": "Epicerie"
+  },
+  "Lentilles": {
+    "unit": "g",
+    "category": "Epicerie"
+  },
+  "Quinoa": {
+    "unit": "g",
+    "category": "Epicerie"
+  },
+  "Boulgour": {
+    "unit": "g",
+    "category": "Epicerie"
+  },
+  "Pommes de terre": {
+    "unit": "g",
+    "category": "Fruits & Légumes"
+  },
+  "Légumes": {
+    "unit": "sachet",
+    "category": "Fruits & Légumes"
+  },
+  "Brocoli": {
+    "unit": "pièce",
+    "category": "Fruits & Légumes"
+  },
+  "Carottes": {
+    "unit": "pièce",
+    "category": "Fruits & Légumes"
+  },
+  "Epinards": {
+    "unit": "g",
+    "category": "Fruits & Légumes"
+  },
+  "Poireaux": {
+    "unit": "pièce",
+    "category": "Fruits & Légumes"
+  },
+  "Poivrons": {
+    "unit": "pièce",
+    "category": "Fruits & Légumes"
+  },
+  "Champignons": {
+    "unit": "g",
+    "category": "Fruits & Légumes"
+  },
+  "Haricots": {
+    "unit": "g",
+    "category": "Fruits & Légumes"
+  },
+  "Avocat": {
+    "unit": "pièce",
+    "category": "Fruits & Légumes"
+  },
+  "Tomates": {
+    "unit": "pièce",
+    "category": "Fruits & Légumes"
+  },
+  "Aubergine": {
+    "unit": "pièce",
+    "category": "Fruits & Légumes"
+  },
+  "Courgette": {
+    "unit": "pièce",
+    "category": "Fruits & Légumes"
+  },
+  "Fromage": {
+    "unit": "g",
+    "category": "Crèmerie"
+  },
+  "Crème": {
+    "unit": "ml",
+    "category": "Crèmerie"
+  },
+  "Oeufs": {
+    "unit": "pièce",
+    "category": "Crèmerie"
+  },
+  "Reblochon": {
+    "unit": "pièce",
+    "category": "Crèmerie"
+  },
+  "Pain": {
+    "unit": "pièce",
+    "category": "Boulangerie"
+  },
+  "Wraps": {
+    "unit": "pièce",
+    "category": "Boulangerie"
+  },
+  "Ingrédient mystère": {
+    "unit": "portion",
+    "category": "Autres"
+  }
+}

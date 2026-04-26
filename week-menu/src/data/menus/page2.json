@@ -1,0 +1,266 @@
+[
+  {
+    "id": 21,
+    "name": "Boulettes maison, couscous perlé, tomates, tzatziki",
+    "ingredients": [
+      {
+        "item": "Tomates",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "name": "Omurice au rice cooker",
+    "ingredients": [
+      {
+        "item": "Ingrédient mystère",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "name": "Pâtes épinards et tomates cerises",
+    "ingredients": [
+      {
+        "item": "Pâtes",
+        "quantity": 400
+      },
+      {
+        "item": "Légumes",
+        "quantity": 1
+      },
+      {
+        "item": "Tomates",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "name": "Poulet teriyaki et haricots verts",
+    "ingredients": [
+      {
+        "item": "Poulet",
+        "quantity": 300
+      },
+      {
+        "item": "Légumes",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "name": "Quesadillas au poulet et fromage",
+    "ingredients": [
+      {
+        "item": "Poulet",
+        "quantity": 300
+      },
+      {
+        "item": "Fromage",
+        "quantity": 100
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "name": "Poireaux à la crème purée aux herbes et steak haché",
+    "ingredients": [
+      {
+        "item": "Pommes de terre",
+        "quantity": 600
+      },
+      {
+        "item": "Boeuf",
+        "quantity": 2
+      },
+      {
+        "item": "Crème",
+        "quantity": 200
+      },
+      {
+        "item": "Légumes",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "name": "Cannelloni épinards et ricotta",
+    "ingredients": [
+      {
+        "item": "Fromage",
+        "quantity": 100
+      },
+      {
+        "item": "Légumes",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "name": "Saucisse, purée, compote/haricots",
+    "ingredients": [
+      {
+        "item": "Pommes de terre",
+        "quantity": 600
+      },
+      {
+        "item": "Légumes",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "name": "Omelette champignons et herbes",
+    "ingredients": [
+      {
+        "item": "Oeufs",
+        "quantity": 4
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "name": "Nouilles sautées au poulet",
+    "ingredients": [
+      {
+        "item": "Poulet",
+        "quantity": 300
+      },
+      {
+        "item": "Nouilles",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "name": "Salade pâtes, thon, pêches, mayo",
+    "ingredients": [
+      {
+        "item": "Pâtes",
+        "quantity": 400
+      },
+      {
+        "item": "Poisson",
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "name": "Frittata pommes de terre, oignons",
+    "ingredients": [
+      {
+        "item": "Pommes de terre",
+        "quantity": 600
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "name": "Rôti ardennais rosti chou chinois",
+    "ingredients": [
+      {
+        "item": "Ingrédient mystère",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "name": "Dahl lentilles corail coco",
+    "ingredients": [
+      {
+        "item": "Ingrédient mystère",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "name": "Riz cantonais",
+    "ingredients": [
+      {
+        "item": "Riz",
+        "quantity": 200
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "name": "Steak purée légume (haricots ou compote)",
+    "ingredients": [
+      {
+        "item": "Pommes de terre",
+        "quantity": 600
+      },
+      {
+        "item": "Boeuf",
+        "quantity": 2
+      },
+      {
+        "item": "Légumes",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "name": "Chou rouge, filet pur de porc et pdt",
+    "ingredients": [
+      {
+        "item": "Pommes de terre",
+        "quantity": 600
+      },
+      {
+        "item": "Boeuf",
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "name": "Boeuf, sauce à l’oignon, salade et frites",
+    "ingredients": [
+      {
+        "item": "Boeuf",
+        "quantity": 2
+      },
+      {
+        "item": "Oeufs",
+        "quantity": 4
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "name": "Hachis parmentier",
+    "ingredients": [
+      {
+        "item": "Ingrédient mystère",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "name": "Suprême de volaille, sauce herbes, fromage blanc, champignons et purée",
+    "ingredients": [
+      {
+        "item": "Pommes de terre",
+        "quantity": 600
+      },
+      {
+        "item": "Fromage",
+        "quantity": 100
+      }
+    ]
+  }
+]

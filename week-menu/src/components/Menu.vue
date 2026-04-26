@@ -1,7 +1,7 @@
 <script setup>
 
 import { computed, onMounted, ref, watch } from 'vue'
-import menuData from '../menu-data.json'
+import { menuData } from '../data'
 import MenuCell from './MenuCell.vue'
 import IngredientRow from './IngredientRow.vue'
 

@@ -1,0 +1,306 @@
+[
+  {
+    "id": 101,
+    "name": "Pâtes sauce tomate crème et haché végétarien",
+    "ingredients": [
+      {
+        "item": "Pâtes",
+        "quantity": 400
+      },
+      {
+        "item": "Crème",
+        "quantity": 200
+      },
+      {
+        "item": "Tomates",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "id": 102,
+    "name": "Gratin de poireaux au jambon",
+    "ingredients": [
+      {
+        "item": "Légumes",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": 103,
+    "name": "Courgette paprika, poulet grillé et boulgour",
+    "ingredients": [
+      {
+        "item": "Poulet",
+        "quantity": 300
+      }
+    ]
+  },
+  {
+    "id": 104,
+    "name": "Couscous ratatouille niçoise poulet",
+    "ingredients": [
+      {
+        "item": "Poulet",
+        "quantity": 300
+      }
+    ]
+  },
+  {
+    "id": 105,
+    "name": "Haché riz et poivron soja",
+    "ingredients": [
+      {
+        "item": "Riz",
+        "quantity": 200
+      }
+    ]
+  },
+  {
+    "id": 106,
+    "name": "Patates douces farcies avec bacon, ciboulette, fromage",
+    "ingredients": [
+      {
+        "item": "Fromage",
+        "quantity": 100
+      }
+    ]
+  },
+  {
+    "id": 107,
+    "name": "Chili con carne",
+    "ingredients": [
+      {
+        "item": "Ingrédient mystère",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": 108,
+    "name": "salade fusion asiatique, émincés végétariens, poivrons, nouilles udon",
+    "ingredients": [
+      {
+        "item": "Nouilles",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": 109,
+    "name": "Poulet épinards, crème riz ou pâtes",
+    "ingredients": [
+      {
+        "item": "Poulet",
+        "quantity": 300
+      },
+      {
+        "item": "Riz",
+        "quantity": 200
+      },
+      {
+        "item": "Pâtes",
+        "quantity": 400
+      },
+      {
+        "item": "Crème",
+        "quantity": 200
+      },
+      {
+        "item": "Légumes",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": 110,
+    "name": "Risotto aux poivrons et courgettes",
+    "ingredients": [
+      {
+        "item": "Ingrédient mystère",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": 111,
+    "name": "Tourte à la viande hachée, pdt au four et carottes grillées au beurre",
+    "ingredients": [
+      {
+        "item": "Pommes de terre",
+        "quantity": 600
+      },
+      {
+        "item": "Légumes",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": 112,
+    "name": "Bagels garni (saumon ou dinde, fromage, légumes)",
+    "ingredients": [
+      {
+        "item": "Dinde",
+        "quantity": 2
+      },
+      {
+        "item": "Poisson",
+        "quantity": 2
+      },
+      {
+        "item": "Fromage",
+        "quantity": 100
+      },
+      {
+        "item": "Légumes",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": 113,
+    "name": "Salade de pomme de terre, persil, poulet grillé et haricots",
+    "ingredients": [
+      {
+        "item": "Poulet",
+        "quantity": 300
+      },
+      {
+        "item": "Légumes",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": 114,
+    "name": "Pâtes haché, fromage, yaourt grec, pâte de tomate",
+    "ingredients": [
+      {
+        "item": "Pâtes",
+        "quantity": 400
+      },
+      {
+        "item": "Fromage",
+        "quantity": 100
+      },
+      {
+        "item": "Tomates",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "id": 115,
+    "name": "Poulet toscan avec tomates séchées, pâtes, crème et épinards",
+    "ingredients": [
+      {
+        "item": "Poulet",
+        "quantity": 300
+      },
+      {
+        "item": "Pâtes",
+        "quantity": 400
+      },
+      {
+        "item": "Crème",
+        "quantity": 200
+      },
+      {
+        "item": "Légumes",
+        "quantity": 1
+      },
+      {
+        "item": "Tomates",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "id": 116,
+    "name": "Escalope de dinde, chutney tomate et purée",
+    "ingredients": [
+      {
+        "item": "Pommes de terre",
+        "quantity": 600
+      },
+      {
+        "item": "Dinde",
+        "quantity": 2
+      },
+      {
+        "item": "Tomates",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "id": 117,
+    "name": "Boeuf bulgogi aux légumes et au riz",
+    "ingredients": [
+      {
+        "item": "Riz",
+        "quantity": 200
+      },
+      {
+        "item": "Boeuf",
+        "quantity": 2
+      },
+      {
+        "item": "Légumes",
+        "quantity": 1
+      },
+      {
+        "item": "Oeufs",
+        "quantity": 4
+      }
+    ]
+  },
+  {
+    "id": 118,
+    "name": "Salade de grenailles et poulet aux herbes",
+    "ingredients": [
+      {
+        "item": "Poulet",
+        "quantity": 300
+      }
+    ]
+  },
+  {
+    "id": 119,
+    "name": "Nasi goreng",
+    "ingredients": [
+      {
+        "item": "Ingrédient mystère",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": 120,
+    "name": "Burrito bowl (haricots, maïs, tomate, avocat, poulet, riz, salade)",
+    "ingredients": [
+      {
+        "item": "Poulet",
+        "quantity": 300
+      },
+      {
+        "item": "Riz",
+        "quantity": 200
+      },
+      {
+        "item": "Légumes",
+        "quantity": 1
+      },
+      {
+        "item": "Tomates",
+        "quantity": 3
+      },
+      {
+        "item": "Wraps",
+        "quantity": 4
+      }
+    ]
+  }
+]
